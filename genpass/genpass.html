@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор пароля</title>
+    <link rel="stylesheet" href="../styles/genpass.css">
+</head>
+
+<body>
+    <form action="" id="form">
+        <label>
+            Довжина пароля
+            <input type="text" name="length" id="length" placeholder="Довжина паролю">
+        </label>
+
+        <label>
+            Цифри
+            <input type="checkbox" name="digit" id="digit">
+        </label><label>
+            Регістр верхній
+            <input type="checkbox" name="upper" id="upper">
+        </label><label>
+            Регістр нижній
+            <input type="checkbox" name="lover" id="lover">
+        </label><label>
+            Унікальні
+            <input type="checkbox" name="uniq" id="uniq">
+        </label>
+    </form>
+    <button>Сгенерувати</button>
+    <div class="result"></div>
+    <a href="/">Повернутись на головну</a>
+    <script src="genpass.js"></script>
+</body>
+
+</html>
